@@ -19,8 +19,7 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - name: Build debug APK
-        run: ./- name: Make gradlew executable
+      - name: Make gradlew executable
         run: chmod +x ./gradlew
 
       - name: Upload APK artifact
